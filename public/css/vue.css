@@ -1,0 +1,109 @@
+/* CARDS */
+/* ================================================================================= */
+.kards {
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    overflow-x: scroll;
+    min-height: 45vh;
+}
+
+.kard {
+    min-width: 200px;
+    max-width: 200px;
+    height: 250px;
+    margin-left: -55px;
+    border-radius: 40px;
+    padding: 30px;
+
+    box-shadow: -4px 4px 26px 2px hsla(184, 50%, 20%, 0.1);
+    background: linear-gradient(
+        to right bottom,
+        hsl(0, 0%, 98%),
+        hsl(0, 0%, 96%)
+    );
+
+    transition: all 0.3s;
+    position: relative;
+}
+
+.kard:first-child {
+    margin-left: 0;
+}
+
+.kard:hover,
+.card:focus-within {
+    transform: translateY(-20px);
+}
+
+.kard:hover + .kard,
+.kard:focus-within + .kard {
+    transform: translateX(50px);
+}
+
+.kard-info {
+    margin-bottom: 14px;
+}
+
+.kard-info > span:first-child {
+    margin-right: 6px;
+}
+
+.kard-grad--video {
+    color: transparent;
+    background: linear-gradient(
+        to right,
+        hsl(91, 96%, 50%),
+        hsl(159, 96%, 50%)
+    );
+    background-clip: text;
+}
+
+.kard-grad--shot {
+    color: transparent;
+    background: linear-gradient(
+        to right,
+        hsl(294, 96%, 50%),
+        hsl(201, 96%, 50%)
+    );
+    background-clip: text;
+}
+
+.kard-info > span:last-child {
+    color: hsl(0, 0%, 70%);
+}
+
+.kard-heading {
+    font-size: 1.4em;
+}
+
+.kard-heading p {
+    color: hsl(30, 50%, 40%);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.kard-tags {
+    display: flex;
+
+    position: absolute;
+    bottom: 50px;
+    left: 30px;
+}
+
+.kard-tag {
+    color: hsl(0, 0%, 60%);
+    padding: 5px 12px;
+    border: 2px solid hsl(30, 40%, 70%);
+    border-radius: 100px;
+    text-transform: uppercase;
+    margin-right: 10px;
+    font-size: 0.9em;
+}
+
+.scroll {
+    height: 480px;
+    overflow: auto;
+    border: 2px solid hsl(171, 100%, 86%);
+    margin-top: 25px;
+}

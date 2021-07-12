@@ -1,0 +1,48 @@
+{
+    "frames": [
+        {
+            "name": "sprite-00",
+            "image": "frame1.png"
+        },
+        {
+            "name": "sprite-01",
+            "image": "frame2.png"
+        },
+        {
+            "name": "sprite-02",
+            "image": "frame3.png"
+        },
+        {
+            "name": "sprite-03",
+            "image": "frame4.png"
+        },
+        {
+            "name": "sprite-04",
+            "image": "frame5.png"
+        },
+        {
+            "name": "sprite-05",
+            "image": "frame6.png"
+        },
+        {
+            "name": "sprite-06",
+            "image": "frame7.png"
+        },
+        {
+            "name": "sprite-07",
+            "image": "frame8.png"
+        },
+        {
+            "name": "sprite-08",
+            "image": "frame9.png"
+        },
+        {
+            "name": "sprite-09",
+            "image": "frame10.png"
+        },
+        {
+            "name": "sprite-10",
+            "image": "frame11.png"
+        }
+    ]
+}

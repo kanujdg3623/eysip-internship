@@ -1,0 +1,50 @@
+[
+    {
+        "id": 7,
+        "vis_session_id": "90c58d49-d812-4ffa-a6e7-d9ff59f82ad9",
+        "created_at": "2020-06-10T09:32:13.000000Z",
+        "updated_at": "2020-06-10T09:32:13.000000Z",
+        "client_id": null,
+        "vis_session_details": [
+            {
+                "URI": { "hostname": "127.0.0.1", "pathname": "/" },
+                "duration": 0,
+                "created_at": "2020-06-10T09:32:13.855544Z",
+                "updated_at": "2020-06-10T09:32:13.855544Z"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "vis_session_id": "90c59bdc-e8f9-4931-a057-8eb55646f745",
+        "created_at": "2020-06-10T10:12:59.000000Z",
+        "updated_at": "2020-06-10T10:15:04.000000Z",
+        "client_id": null,
+        "vis_session_details": [
+            {
+                "URI": { "hostname": "localhost", "pathname": "/" },
+                "duration": 0,
+                "created_at": "2020-06-10T10:12:59.064864Z",
+                "updated_at": "2020-06-10T10:12:59.064864Z"
+            },
+            {
+                "URI": { "hostname": "localhost", "pathname": "/login" },
+                "duration": 0,
+                "created_at": "2020-06-10T10:13:00.937582Z",
+                "updated_at": "2020-06-10T10:13:00.937582Z"
+            },
+            {
+                "URI": { "hostname": "localhost", "pathname": "/login" },
+                "duration": 90,
+                "created_at": "2020-06-10T10:13:09.534665Z",
+                "updated_at": "2020-06-10T10:14:39.488909Z"
+            },
+            {
+                "URI": { "hostname": "localhost", "pathname": "/login" },
+                "duration": 0,
+                "created_at": "2020-06-10T10:15:04.861577Z",
+                "updated_at": "2020-06-10T10:15:04.861577Z"
+            }
+        ]
+    }
+]
